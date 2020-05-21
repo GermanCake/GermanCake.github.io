@@ -1,0 +1,12 @@
+Logo Colour template
+
+font: Montserrat
+logo:
+  #ff6347
+  #992599
+  #3a3a3a
+
+Navbar: #212121
+Body : 
+  bg: #181818
+  text: #ffffff
