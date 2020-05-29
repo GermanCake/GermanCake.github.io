@@ -4314,7 +4314,7 @@ nav .nav-wrapper {
 }
 
 nav .sidenav-trigger {
-  float: left;
+  float: right;
   position: relative;
   z-index: 1;
   height: 56px;

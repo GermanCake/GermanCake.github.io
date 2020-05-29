@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1"/>
+  <title>CovMantra - Your Guide of Survival</title>
+
+  <!-- CSS & Scripts-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <!--Fonts-->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
+</head>
+<body class="white">
+  <div id="loader-wrapper">
+    <div id="loader"></div>
+    <div class="loader-section section-left"></div>
+    <div class="loader-section section-right"></div>
+  </div>
+  <nav class="grey darken-4" role="navigation">
+    <div class="light nav-wrapper container">
+      <img id="logo" src="/assets/img/logo.png" style="height: 100%;" alt="">
+      <a id="logo-container" href="#" class="brand-logo" 
+         style="color: #ffffff; font-family: 'Montserrat', sans-serif">
+        CovMantra
+      </a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="/">Home</a></li>
+        <li><a href="/selfhelp.html">Self Help</a></li>
+        <li><a href="#">Awareness Material</a></li>
+        <li><a href="#">FAQ's</a></li>
+        <li class="active"><a href="/blog.html">Blog</a></li>
+      </ul>
+      
+      <!-- Mobile Nav -->
+      <ul id="nav-mobile" class="grey darken-4 sidenav">
+        <li><div class="logo-container center">
+          <div class="background">
+            <img src="/assets/img/logo-4-dark.png" style="align-content: center">
+          </div>
+        </div></li>
+        <li><a class="waves-effect" href="#"><i class="material-icons" style="color: white">home</i>
+          Home</a></li>
+        <li class="active"><a class="waves-effect" href="/selfhelp.html"><i class="material-icons" style="color: white">local_hospital</i>
+          Self Help</a></li>
+        <li><a class="waves-effect" href="#"><i class="material-icons" style="color: white">record_voice_over</i>
+          Awareness Material</a></li>
+        <li><a class="waves-effect" href="#"><i class="material-icons" style="color: white">help</i>
+          FAQ's</a></li>
+        <li><a class="waves-effect" href="/blog.html"><i class="material-icons" style="color: white">rss_feed</i>
+          Blog</a></li>
+      </ul>
+      <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons" style="color: grey">menu</i></a>
+    </div>
+  </nav>
+
+  <header style="background-image: url(assets/img/bg2.jpg)">
+		<div class="container">
+			<div class="row">
+				<div class="col s12">
+					<h1 class="z-depth-2 header center white-text text-lighten-2" 
+              style="color: #e040fb; font-family: 'Montserrat', sans-serif; padding: 75px 75px; font-size: 75px">
+                        Self Check
+                    </h1>
+				</div>
+            </div>
+		</div>
+	</header>
+  
+  <div class="center-align container">
+    <iframe class="center-align" id="hf-iframe" src="https://covid19.infermedica.com/en/?header=false&?guidelines_data=%7B%22emergency_numbers%22%3A%5B%7B%22number%22%3A%221075%22%7D%2C%7B%22number%22%3A%22112%22%2C%22description%22%3A%22%28optional%29Example%22%7D%5D%2C%22covid_numbers%22%3A%5B%7B%22number%22%3A%22%2B91-11-23978046%22%7D%5D%2C%22websites%22%3A%5B%7B%22website%22%3A%22https%3A%2F%2Fwww.mohfw.gov.in%2F%22%2C%22description%22%3A%22MOHFW%22%7D%5D%2C%22free_text%22%3A%22Notsurewhattodo%3FCall%3A%2B91-11-23978046%22%7D"></iframe>  
+  </div>
+
+  <footer class="z-depth-4 page-footer grey darken-4">
+    <div class="container">
+      <div class="row">
+        <div class="col l6 s12">
+          <h5 class="white-text">CovMantra</h5>
+          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. This project aims at providing the people information and knowledge about the pandemic and serves as a guide for it.</p>
+        </div>
+      </div>
+    </div>
+    <div class="z-depth-2 footer-copyright">
+      <div class="container">
+      Made with <span class="tiny material-icons" style="color: red">favorite</span> by <a class="brown-text text-lighten-3" href="http://github.com/GermanCake">German Cake</a>
+      </div>
+    </div>
+  </footer>
+  
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+  <script src="js/app.js"></script>
+  <script src="https://covid19.infermedica.com/static/healthform/js/iframe-helper/iframe-helper.js"></script>
+
+  </body>
+</html>

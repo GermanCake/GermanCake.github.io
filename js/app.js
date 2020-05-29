@@ -12,7 +12,6 @@ var settings = {
 };
 
 $.ajax(settings).done(function (response) {
-  console.log(response);
   var tt_con = response.statewise[0].confirmed;
   var tt_act = response.statewise[0].active;
   var tt_ded = response.statewise[0].deaths;
