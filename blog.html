@@ -11,6 +11,9 @@
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha256-4+XzXVhsDmqanXGHaHvgh1gMQKX40OUvDEBTu8JcmNs=" crossorigin="anonymous"></script>
+  <!--icons-->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/all.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.12.1/css/v4-shims.css">
   <!--Fonts-->
   <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@600&display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Lato&family=Source+Sans+Pro&display=swap" rel="stylesheet"> 
@@ -20,16 +23,17 @@
   <nav class="grey darken-4" role="navigation">
     <div class="light nav-wrapper container">
       <img id="logo" src="/assets/img/logo.png" style="height: 100%;" alt="">
-      <a id="logo-container" href="#" class="brand-logo" 
+      <a id="logo-container" href="/" class="brand-logo" 
          style="color: #ffffff; font-family: 'Montserrat', sans-serif">
         CovMantra
       </a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="/index.html">Home</a></li>
+        <li><a href="/">Home</a></li>
+        <li><a href="/about.html">About</a></li>
         <li><a href="/selfhelp.html">Self Help</a></li>
-        <li><a href="#">Awareness Material</a></li>
-        <li><a href="#">FAQ's</a></li>
-        <li><a href="#">Blog</a></li>
+        <li><a href="/awareness.html">Awareness Material</a></li>
+        <li><a href="/faq.html">FAQ's</a></li>
+        <li class="active"><a href="#">Blog</a></li>
       </ul>
       <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons" style="color: grey">menu</i></a>
     </div>
@@ -42,13 +46,15 @@
             <img src="/assets/img/logo-4-dark.png" style="align-content: center">
           </div>
         </div></li>
-        <li><a class="waves-effect" href="/index.html"><i class="material-icons" style="color: white">home</i>
+        <li><a class="waves-effect" href="/"><i class="material-icons" style="color: white">home</i>
           Home</a></li>
+        <li><a class="waves-effect" href="/"><i class="material-icons" style="color: white">info</i>
+          About</a></li>
         <li><a class="waves-effect" href="/selfhelp.html"><i class="material-icons" style="color: white">local_hospital</i>
           Self Help</a></li>
-        <li><a class="waves-effect" href="#"><i class="material-icons" style="color: white">record_voice_over</i>
+        <li><a class="waves-effect" href="/awareness.html"><i class="material-icons" style="color: white">record_voice_over</i>
           Awareness Material</a></li>
-        <li><a class="waves-effect" href="#"><i class="material-icons" style="color: white">help</i>
+        <li><a class="waves-effect" href="/faq.html"><i class="material-icons" style="color: white">help</i>
           FAQ's</a></li>
         <li class="active"><a class="waves-effect" href="#"><i class="material-icons" style="color: white">rss_feed</i>
           Blog</a></li>
@@ -127,18 +133,35 @@ So let’s clear out some Myths:</p>
     <h3 class="center-align blog-h3">BE SAFE, BE HEALTHY</h3>
   </div>
 
-  <footer class="z-depth-4 page-footer grey darken-4">
+    <footer class="z-depth-4 page-footer grey darken-4">
     <div class="container">
       <div class="row">
-        <div class="col l6 s12">
-          <h5 class="white-text">CovMantra</h5>
+        <div class="col s12 m8">
+          <h5 class="blog-h5 white-text" style="font-family: 'Montserrat', sans-serif;">CovMantra</h5>
           <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our full time job. This project aims at providing the people information and knowledge about the pandemic and serves as a guide for it.</p>
+          <div>
+						Connect with us
+						<div class="social-icons ">
+              <a href="#" target="_blank">
+                                <i class="fa fa-facebook-official"></i>
+                            </a>
+              <a href="https://www.instagram.com/covmantra/" target="_blank">
+                                <i class="fa fa-instagram"></i>
+                            </a>
+              <a href="https://github.com/GermanCake" target="_blank">
+                                <i class="fa fa-github"></i>
+                            </a>
+              </div>
+            </div>
+        </div>
+        <div class="col s12 m4">
+          <img src="assets/img/logo-4-dark.png" class="right hide-on-small-only">
         </div>
       </div>
     </div>
     <div class="z-depth-2 footer-copyright">
       <div class="container">
-      Made with <span class="tiny material-icons" style="color: red">favorite</span> by <a class="brown-text text-lighten-3" href="http://github.com/GermanCake">German Cake</a>
+      Made with <span class="tiny material-icons" style="color: red">favorite</span> by <a class="brown-text text-lighten-3" href="/about.html">German Cake</a>
       </div>
     </div>
   </footer>
@@ -147,7 +170,7 @@ So let’s clear out some Myths:</p>
 
   <!--  Scripts-->
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
+  <script src="js/materialize.min.js"></script>
   <script src="js/init.js"></script>
   <script src="js/app.js"></script>
 

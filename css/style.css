@@ -261,3 +261,17 @@ footer.page-footer {
   height: auto;
   width:inherit;
 }
+
+.faq-q {
+  font-family: 'Montserrat', sans-serif;
+}
+
+.faq-a {
+  font-size: 17px;
+  font-weight: 100;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.social-icons {
+  font-size: 26px;
+}
